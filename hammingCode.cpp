@@ -66,9 +66,6 @@ int main()
 
             (localParity == parity) ? wrongBit += (int)pow(2, i) : wrongBit += 0;
         }
-
-        std::cout << std::endl
-                  << (localParity == parity) << "  " << pow(2, i) << " " << wrongBit << std::endl;
     }
     wrongBit == 0 ? std::cout << "No error :)" : std::cout << "Error at position " << wrongBit;
 }

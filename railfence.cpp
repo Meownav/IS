@@ -20,7 +20,6 @@ int main()
             if ((i == 0) || (i == key - 1))
             {
                 idx += 2 * key - 2;
-                continue;
             }
             else
             {
