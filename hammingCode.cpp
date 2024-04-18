@@ -53,7 +53,7 @@ int main()
         {
             if ((int)pow(2, i) & (j))
             {
-                localParity ^= msg.at(j - 1) == '1'; // 0
+                localParity ^= msg.at(j - 1) == '1';
             }
         }
 
