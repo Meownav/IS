@@ -10,6 +10,6 @@ int main()
 
     for (auto chr : msg)
     {
-        std::cout << (char)(chr + key);
+        std::cout << (char)('a' + ((chr + key) % 97) % 26);
     }
 }
